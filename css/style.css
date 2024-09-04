@@ -153,3 +153,10 @@ img {
     background: rgb(255, 255, 255, 0.2);
     color: white;
 }
+
+/* COUNTER */
+#counter {
+    background: linear-gradient(rgba(var(--color-brand-rgb), 0.8), rgba(var(--color-brand-rgb), 0.8)), url(/img/counter.jpg);
+    background-position: center;
+    background-size: cover;
+}
