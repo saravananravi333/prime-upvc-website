@@ -20,6 +20,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
     font-weight: 600;
+    color: var(--color-dark);
 }
 
 a {
@@ -81,4 +82,35 @@ img {
     background: linear-gradient(rgba(var(--color-brand-rgb), 0.5), rgba(var(--color-brand-rgb), 0.5)), url(/img/hero.jpg);
     background-position: center;
     background-size: cover;
+}
+
+/* SECTION TITLE */
+.section-title {
+    margin-bottom: 60px;
+}
+
+.section-title .line {
+    width: 60px;
+    height: 4px;
+    background-color: var(--color-brand);
+    margin: 16px auto 24px auto;
+}
+
+.section-title p {
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ICONBOX */
+.iconbox {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(var(--color-brand-rgb), 0.1);
+    color: var(--color-brand);
+    font-size: 34px;
+    flex: none;
 }
