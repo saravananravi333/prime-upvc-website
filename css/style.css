@@ -6,7 +6,7 @@
     --color-brand: #186A87;
     --color-brand-light: #39AFCC;
     --color-brand-rgb: 24, 106, 135;
-    --box-shadow: 0px 15px 25px rgba(0,0,0,0.08);
+    --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.08);
     --transition: all 0.5s ease;
 }
 
@@ -159,4 +159,53 @@ img {
     background: linear-gradient(rgba(var(--color-brand-rgb), 0.8), rgba(var(--color-brand-rgb), 0.8)), url(/img/counter.jpg);
     background-position: center;
     background-size: cover;
+}
+
+/* FOOTER */
+footer {
+    padding-top: 100px;
+}
+
+.footer-top {
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(255, 255, 255, 0.1);
+}
+
+.footer-bottom {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+footer li,
+footer p,
+footer a {
+    color: rgb(255, 255, 255, 0.7);
+}
+
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .line {
+    width: 40px;
+    height: 4px;
+    background-color: var(--color-brand);
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 100px;
+}
+
+.social-icons a:hover {
+    background-color: var(--color-brand);
+    color: white;
 }
