@@ -236,9 +236,6 @@ img {
 }
 
 /* BLOGS */
-.blog-post {
-}
-
 .blog-post a {
     cursor: pointer;
     color: var(--color-brand-light);
