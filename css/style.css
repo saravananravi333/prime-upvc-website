@@ -142,6 +142,20 @@ img {
     flex: none;
 }
 
+/* CTA */
+#cta {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background: linear-gradient(rgba(0,0,0, 0.7), rgba(0,0,0, 0.7)), url(../img/cta.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#cta h2, p {
+    color: white;
+}
+
 /* SERVICES */
 .service {
     position: relative;
