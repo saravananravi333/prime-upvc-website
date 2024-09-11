@@ -152,7 +152,7 @@ img {
     background-attachment: fixed;
 }
 
-#cta h2, p {
+#cta h2, #cta p {
     color: white;
 }
 
@@ -242,6 +242,16 @@ img {
     border: 0.5px solid black;
 }
 
+/* BLOGS */
+.blog-post a {
+    cursor: pointer;
+    color: var(--color-brand-light);
+}
+
+.blog-post a:hover {
+    color: var(--color-brand);
+}
+
 /* CONTACT */
 #contact {
     position: relative;
@@ -268,16 +278,6 @@ img {
 #contact .form-control:focus {
     box-shadow: none;
     border-color: var(--color-brand);
-}
-
-/* BLOGS */
-.blog-post a {
-    cursor: pointer;
-    color: var(--color-brand-light);
-}
-
-.blog-post a:hover {
-    color: var(--color-brand);
 }
 
 /* FOOTER */
